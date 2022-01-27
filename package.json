@@ -6,7 +6,7 @@
   "scripts": {
     "watch": "yarn clean; tsc -w",
     "dev": "nodemon build/server.js",
-    "build": "yarn clean; tsc",
+    "build:dev": "yarn clean; tsc",
     "start": "node build/server.js",
     "clean": "rm -rf build"
   },
