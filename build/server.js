@@ -14,4 +14,7 @@ app.use(express_1.default.json());
 app.use("/stream", checkAuth_1.default);
 // ENDPOINTS
 app.get("/stream", streamController_1.default);
+app.get("/", (_, res) => {
+    res.status(200).send("I am alive!");
+});
 app.listen(process.env.PORT, () => console.log("Server Started!"));
