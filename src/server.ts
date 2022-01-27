@@ -14,4 +14,4 @@ app.use("/stream", checkAuth);
 // ENDPOINTS
 app.get("/stream", streamController);
 
-app.listen(3001, () => console.log("Server Started!"));
+app.listen(process.env.PORT || 3001, () => console.log("Server Started!"));
