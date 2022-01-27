@@ -14,4 +14,4 @@ app.use(express_1.default.json());
 app.use("/stream", checkAuth_1.default);
 // ENDPOINTS
 app.get("/stream", streamController_1.default);
-app.listen(3001, () => console.log("Server Started!"));
+app.listen(process.env.PORT, () => console.log("Server Started!"));
