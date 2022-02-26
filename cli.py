@@ -42,4 +42,4 @@ if type == 'middleware' or type == 'controller':
       f.close()
   
   except Exception as e:
-    print('Error connecting middleware/controller in server.ts file, manually connect the endpoint or edit cli.py for customizations', '\n', 'ERROR: ' + str(e), sep='')
+    print('Error connecting middleware/controller in server.ts file,\nmanually connect the endpoint/middleware or edit cli.py for customizations', '\n', 'ERROR: ' + str(e), sep='')
