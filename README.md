@@ -6,9 +6,9 @@
 
 (you may do `sudo chmod +x cli.py` to use `./cli.py`)
 
-1. Command to create a middleware: `python3 cli.py middleware myAwesomeMiddleware.ts /path/of/middleware`
+1. Command to create a middleware:<br>`python3 cli.py middleware myAwesomeMiddleware.ts /path/of/middleware`
 
-2. Command to create a controller/endpoint: `python3 cli.py controller myAwesomeController.ts /path/of/controller`
+2. Command to create a controller/endpoint:<br>`python3 cli.py controller myAwesomeController.ts /path/of/controller`
 
 ---
 
